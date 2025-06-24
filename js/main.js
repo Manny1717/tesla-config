@@ -1,15 +1,18 @@
 const topBar = document.querySelector('#top-bar');
 
-const exteriorColorSection = document.querySelector('#exterior-buttons');
-const interiorColorSection = document.querySelector('#interior-buttons');
+//Images
 const exteriorImage = document.querySelector('#exterior-image');
 const interiorImage = document.querySelector('#interior-image');
+
+//Selection
+const exteriorColorSection = document.querySelector('#exterior-buttons');
+const interiorColorSection = document.querySelector('#interior-buttons');
 const wheelButtonsSection = document.querySelector('#wheel-buttons');
 const performanceBtn = document.querySelector('#performance-btn');
 const selfDrivingBtn = document.querySelector('#selfDriving-btn');
 const accessoryCheckboxes = document.querySelectorAll('.accessory-form-checkbox');
 
-
+//Payment
 const downPaymentElement = document.querySelector('#down-payment');
 const monthlyPaymentElement = document.querySelector('#monthly-payment');
 const totalPriceElement = document.querySelector('#total-price');
@@ -31,7 +34,6 @@ const interiorImages = {
 
 }
 
-//
 let selectedColor = 'Stealth Grey';
 
 //Add-Ons set to false
